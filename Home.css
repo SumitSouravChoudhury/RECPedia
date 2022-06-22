@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    font-family: 'Zilla Slab', serif;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 14px 0px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 10px 7px;
+    padding: 4px 0px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: rgb(5, 167, 216);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.q {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.q h2 {
+    position: relative;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: white;
+    font-weight: normal;
+}
+
+.q a {
+    margin: 0px 10px;
+}
+
+#wow {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.q ul li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.3);
+    background: linear-gradient(0deg, rgb(49, 49, 49), rgb(3, 3, 3));
+    transition: .5s;
+}
+
+.q ul li a:hover {
+    box-shadow: 0 2px 5px rgba(228, 228, 228, 0.3);
+    text-decoration: none;
+}
+
+.q ul li a .fa {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(4deg, rgb(3, 3, 3), rgb(49, 49, 49));
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: #d6d4d4;
+    transition: .5s;
+}
+
+.q ul li:nth-child(1) a:hover .fa {
+    color: #962541;
+}
+
+.q ul li:nth-child(2) a:hover .fa {
+    color: #02276b;
+}
+
+.q ul li:nth-child(3) a:hover .fa {
+    color: #038ece;
+}
+
+.q ul li:nth-child(4) a:hover .fa {
+    color: #002c8b;
+}
+
+img.logo {
+    max-width: 40px;
+    margin: 0px 35px;
+}
+
+.btn {
+    float: right;
+    padding: 15px 15px;
+    margin: 0px 50px;
+    font-weight: normal;
+    color: rgb(255, 208, 55);
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 208, 55);
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(255, 208, 55);
+}
+
+.btn1 {
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    font-weight: lighter;
+    border-radius: 4px;
+    color: rgb(255, 208, 55);
+    background-color: black;
+    border: 1px solid rgb(255, 208, 55);
+}
+
+.but {
+    padding: 7px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: rgb(255, 208, 55);
+    background-color: black;
+    border-radius: 4px;
+    border: 2px solid rgb(255, 208, 55);
+    cursor: pointer;
+}
+
+.im img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+.top h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: rgb(255, 208, 55);
+    transform: translateY(-50%);
+    background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.top h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255, 208, 55);
+}
+
+.top1 h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: rgb(255, 208, 55);
+    /*transform: translateY(-50%);
+    background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb, #f32170, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(255, 208, 55);
+    background-image: url('https://static.wixstatic.com/media/1bc9e9_fc1d308a33bc4812858ac0e870e3bf69~mv2.jpg');
+    background-size: cover;
+    height: 642px;
+}
+
+.container h1 {
+    margin: -5px auto;
+    text-align: center;
+    color: rgb(255, 208, 55);
+    font-weight: lighter;
+}
+
+.item {
+    height: 500px;
+    width: 700px;
+    border: 1px solid white;
+    padding: 50px 40px;
+    box-shadow: 4px 2px white;
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
+
+.item:hover {
+    transform: scale(1.025);
+}
+
+.item h3 {
+    text-align: left;
+    color: white;
+}
+
+.item p {
+    text-align: left;
+    color: white;
+    margin: 30px 0px;
+    font-size: 1rem;
+}
+
+.item p:hover {
+    color: white;
+}
+
+.item h4 {
+    text-align: left;
+    margin: 55px 0px;
+    font-size: 1.2rem;
+}
+
+.item h4:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(255, 208, 55);
+}
+
+.item1 {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 5px 35px;
+    margin-bottom: 25px;
+    box-shadow: 4px 2px rgb(255, 208, 55);
+    transition: all 0.5s ease-in-out;
+}
+
+#p1 {
+    background-image: url('https://media.istockphoto.com/vectors/hand-holding-megaphone-with-important-announcement-vector-id1164498741?k=20&m=1164498741&s=612x612&w=0&h=FcLfn6vbujTa-5D38jrnvg7bq4T8tnxo3MBG5D7i_p4=');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p2 {
+    background-image: url('http://www.kamilgrzybek.com/wp-content/uploads/2019/06/events_bricks.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p3 {
+    background-image: url('https://t4.ftcdn.net/jpg/04/03/63/27/360_F_403632716_VDeWctDSXIzjfmqPCJzhkuNCtNrAB3MX.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p4 {
+    background-image: url('https://thumbs.dreamstime.com/b/business-consulting-concept-virtual-screen-business-consulting-concept-virtual-screen-153994074.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p5 {
+    background-image: url('https://images.unsplash.com/photo-1584483766114-2cea6facdf57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y292aWQlMjAxOXxlbnwwfHwwfHw%3D&w=1000&q=80');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p5 h3 {
+    color: white;
+}
+
+#p6 {
+    background-image: url('https://i.pinimg.com/736x/ab/3e/b0/ab3eb016e4694959cbc1d1aa6ea20bf2.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p6 h3 {
+    color: white;
+}
+
+#p7 {
+    background-image: url('https://static.wixstatic.com/media/157762_1b9d2382e6ec4fc8b6041a48c0d0c9e8~mv2.png');
+    opacity: 1;
+    background-size: 100% 100%;
+    background-color: rgb(185, 183, 183);
+}
+
+#p8 {
+    background-image: url('https://static.wixstatic.com/media/157762_498bc09323da4ae1b03fbfb3c5c0ecb9~mv2.png');
+    opacity: 1;
+    background-size: 100% 100%;
+    background-color: white;
+}
+
+#p9 {
+    background-image: url('https://image.shutterstock.com/image-vector/male-hand-holding-megaphone-contest-260nw-1356289808.jpg');
+    opacity: 1;
+    background-size: 100% 110%;
+}
+
+#p10 {
+    background-image: url('https://www.teachingandlearning.ie/wp-content/uploads/workshop-1345512_960_720.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p11 {
+    background-image: url('https://m.economictimes.com/thumb/msid-69278826,width-1200,height-900,resizemode-4,imgsize-82628/internship2-getty.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#p12 {
+    background-image: url('https://st.depositphotos.com/1005979/3907/i/600/depositphotos_39071839-stock-photo-more-3d-word-increase-improve.jpg');
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+.item1:hover {
+    transform: scale(1.1);
+}
+
+.item1 h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    padding: 26px;
+}
+
+.item1 a p {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(255, 208, 55);
+}
+
+.item2 {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 35px;
+    box-shadow: -4px 2px rgb(255, 208, 55);
+    transition: all 0.5s ease-in-out;
+}
+
+.item2:hover {
+    transform: scale(1.1);
+}
+
+.item2 h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(255, 208, 55);
+    font-weight: bold;
+    padding: 26px;
+}
+
+.item2 p {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item2 p:hover {
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 img {
+    width: 250px;
+}
+
+.container4 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item41 p {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.item41 p a {
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.item41 p:hover {
+    color: white;
+}
+
+.item42 h4 {
+    text-align: left;
+    color: white;
+}
+
+.item42 input {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 260px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.item43 {
+    margin-top: 40px;
+}
+
+.item43 p
+{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item43 p:hover {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+
+.item42 button {
+    padding: 5px;
+    width: 120px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.item42 button:hover {
+    color: white;
+    background-color: rgb(130, 130, 130);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 95, 95);
+    font-size: 13px;
+    margin: 20px 0px;
+    padding: 5px 0px;
+}
+
+.foot h2 {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+header {
+    margin: 30px auto;
+    width: 100%;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+p:hover {
+    color: rgb(5, 167, 216);
+}
+
+#para {
+    display: none;
+    margin: 30px 140px;
+}
+
+#para:hover {
+    color: white;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 50px auto;
+    text-align: center;
+    color: rgb(255, 208, 55);
+}
+
+h3,
+h4 {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(255, 208, 55);
+}

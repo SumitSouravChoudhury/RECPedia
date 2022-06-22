@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    font-family: 'Zilla Slab', serif;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 14px 0px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 10px 7px;
+    padding: 4px 0px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: rgb(5, 167, 216);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+img.logo {
+    max-width: 40px;
+    margin: 0px 35px;
+}
+
+header {
+    margin: 30px auto;
+    width: 100%;
+}
+
+p {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(255, 208, 55);
+}
+
+h3,
+h4 {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(255, 208, 55);
+}
+
+.btn1 {
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    font-weight: lighter;
+    border-radius: 4px;
+    color: rgb(255, 208, 55);
+    background-color: black;
+    border: 1px solid rgb(255, 208, 55);
+}
+
+.btn {
+    float: right;
+    padding: 15px 15px;
+    margin: 0px 50px;
+    font-weight: lighter;
+    color: rgb(255, 208, 55);
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid rgb(255, 208, 55);
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(255, 208, 55);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 95, 95);
+    font-size: 13px;
+    margin: 20px 0px;
+    padding: 5px 0px;
+}
+
+.foot h2 {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#btnscroll {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.im img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+.container4 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item41 p {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.item41 p a {
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.item41 p:hover {
+    color: white;
+}
+
+.item42 h4 {
+    text-align: left;
+    color: white;
+}
+
+.item42 input {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 260px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.item43 {
+    margin-top: 40px;
+}
+
+.item43 p
+{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item43 p:hover {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+
+.item42 button {
+    padding: 5px;
+    width: 120px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.item42 button:hover {
+    color: white;
+    background-color: rgb(130, 130, 130);
+}
+
+.container8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.i1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.i1 img {
+    margin-right: 20px;
+    width: 500px;
+    height: 600px;
+}
+
+.i2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 70px;
+}
+
+.i3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container8 p a {
+    color: rgb(255, 208, 55);
+}
+
+.container8 a:hover {
+    color: white;
+}
+
+.i4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}

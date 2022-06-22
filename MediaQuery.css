@@ -1,0 +1,245 @@
+@media screen and (max-width: 1200px) {
+
+    .hamburger {
+        display: block !important;
+        margin: 20px !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0 !important;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg) !important;
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg) !important;
+
+    }
+
+    .nav-ul {
+        position: fixed !important;
+        left: -115% !important;
+        top: 60px !important;
+        gap: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        background-color: black !important;
+        width: 100% !important;
+        height: 100vh !important;
+        text-align: center !important;
+        transition: 0.3s !important;
+        padding: 0px 0px !important;
+        z-index: 2 !important;
+    }
+
+    .nav-item {
+        margin: 5px 0 !important;
+    }
+
+    .nav-ul.active {
+        left: 0 !important;
+    }
+
+    #btnscroll {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 420px) {
+
+    img.logo {
+        width: 25px !important;
+    }
+
+    .im img {
+        width: 80px !important;
+    }
+
+    .top h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .top h4 {
+        font-size: 1rem !important;
+    }
+
+    .top1 h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .item {
+        padding: 25px 40px !important;
+        height: 525px !important;
+    }
+
+    .item p {
+        margin: 20px 0px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .item h4 {
+        font-size: 1rem !important;
+    }
+
+    .q h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .item41 p {
+        text-align: center !important;
+        font-size: 1rem !important;
+    }
+
+    .item42 {
+        display: none !important;
+    }
+
+    .container5 {
+        padding: 0px 35px !important;
+    }
+
+    .item41 p a {
+        font-size: 1rem !important;
+    }
+
+    .item43 p {
+        font-size: 1rem !important;
+    }
+
+    .foot h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .i1 img {
+        margin-right: 0px !important;
+        width: 350px !important;
+        height: 450px !important;
+    }
+
+    .i3 {
+        padding: 0px 25px !important;
+    }
+
+    .i4 {
+        width: 80% !important;
+    }
+
+    p {
+        font-size: 0.9rem !important;
+    }
+
+    .container7 {
+        padding: 0px 0px !important;
+    }
+
+    .item7 {
+        justify-content: center !important;
+    }
+
+    .item71 {
+        align-items: center !important;
+    }
+
+    #para {
+        margin: 30px 40px !important;
+    }
+}
+
+@media all and (min-width: 1600px) {
+
+    .navbar li a {
+        font-size: 22px !important;
+    }
+
+    .btn {
+        font-size: 20px !important;
+    }
+
+    .im img {
+        width: 110px !important;
+        margin: 40px auto !important;
+    }
+
+    .top h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .top h4 {
+        font-size: 1.5rem !important;
+    }
+
+    .top1 h1 {
+        font-size: 2rem !important;
+    }
+
+    .container {
+        height: 720px !important;
+    }
+
+    .item {
+        height: 570px !important;
+        width: 870px !important;
+    }
+
+    .item p {
+        font-size: 1.2rem !important;
+    }
+
+    .item41 p a {
+        font-size: 1.5rem !important;
+    }
+
+    .item41 p {
+        font-size: 1.5rem !important;
+    }
+
+    .item42 h4 {
+        font-size: 2rem !important;
+    }
+
+    .item42 input {
+        width: 300px !important;
+        margin-top: 20px !important;
+        font-size: 1.2rem !important;
+    }
+
+    .item42 button {
+        padding: 8px !important;
+        width: 130px !important;
+        font-size: 1.3rem !important;
+    }
+
+    .item43 p {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .container7 {
+        padding: 0px 140px !important;
+    }
+
+    .q h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .but {
+        font-size: 1.5rem !important;
+    }
+
+    .q ul li a .fa {
+        font-size: 35px !important;
+        padding: 10px 0px !important;
+
+    }
+
+    .q ul li a {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
